@@ -10,6 +10,17 @@ namespace Loops
     {
         static void Main(string[] args)
         {
+
+        }
+
+        void PlayerDraw(int x, int y)
+        {
+
+        }
+
+        void PlayerUpdate()
+        {
+
         }
     }
 }
