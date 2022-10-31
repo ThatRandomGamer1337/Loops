@@ -10,16 +10,33 @@ namespace Loops
     {
         static void Main(string[] args)
         {
+            // - - - - -
+            int start = 0;
+            int end = 4;
 
-            Console.WriteLine("Loops");
+            int i = start;
+
+            int[] ammo = new int[5];
+            ammo[0] = 6;
+            ammo[1] = 2;
+            ammo[2] = 25;
+            ammo[3] = 60;
+            ammo[4] = 10;
+
+            // - - - - -
+
+            while (i <= end)
+            {
+                Console.WriteLine("Weapon #" + i + ": " + ammo[i]);
+                i = i + 1;
+            }
+
             Console.WriteLine();
-
-
-
             Console.ReadKey(true);
-            Console.WriteLine();
 
         }
+
+        
 
         void PlayerDraw(int x, int y)
         {
