@@ -16,7 +16,7 @@ namespace Loops
 
             int i = start;
 
-            int[] ammo = new int[5];
+            int[] ammo = new int[5]; // Array
             ammo[0] = 6;
             ammo[1] = 2;
             ammo[2] = 25;
@@ -25,7 +25,7 @@ namespace Loops
 
             // - - - - -
 
-            while (i <= end)
+            while (i <= end) // Loop
             {
                 Console.WriteLine("Weapon #" + i + ": " + ammo[i]);
                 i = i + 1;
@@ -36,16 +36,5 @@ namespace Loops
 
         }
 
-        
-
-        void PlayerDraw(int x, int y)
-        {
-
-        }
-
-        void PlayerUpdate()
-        {
-
-        }
     }
 }
