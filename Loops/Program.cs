@@ -11,6 +11,14 @@ namespace Loops
         static void Main(string[] args)
         {
 
+            Console.WriteLine("Loops");
+            Console.WriteLine();
+
+
+
+            Console.ReadKey(true);
+            Console.WriteLine();
+
         }
 
         void PlayerDraw(int x, int y)
